@@ -81,17 +81,7 @@ export default async function handler(req: NextRequest) {
 					} h-full w-full rounded-xl shadow-md`}
 				>
 					<div tw="absolute -top-px -left-px -right-px -bottom-px rounded-xl border-2 border-black/5" />
-					<div tw="flex w-full flex-row items-center">
-						{/* if author image is not available, use the default author image (DEFAULT_AVATAR) from const */}
-						<img tw="mr-5 h-16 w-16 rounded-full" alt="name" src={photo} />
-						<div tw="flex flex-col items-start">
-							{/* Author name, even if it's team */}
-							<p tw="m-0 text-2xl font-bold leading-tight">{author}</p>
 
-							{/* Show custom domain, then hashnode.dev domain */}
-							{/* Show team domain, if team */}
-							<p tw="m-0 text-2xl leading-tight opacity-60">{domain}</p>
-						</div>
 					</div>
 					<div tw="flex flex-1 flex-col items-center justify-center">
 						{/* if title char count is >= 110 change the tailwind text-* class to text-5xl */}
