@@ -84,13 +84,15 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					/>
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col items-stretch gap-10 px-5 py-10">
-				<div className="columns-2">
-					<ul>
-						<li>Jim Kollevik</li>
-						<li>Product Owner</li>
-					</ul>
+				<div className="flex flex-row">
+					<div className="basis-1/2">
+						<ul>
+							<li>Jim Kollevik</li>
+							<li>Product Owner</li>
+						</ul>
+					</div>
 				</div>
-				<div className="columns-2">	
+				<div className="basis-1/2">	
 					<span>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 						Suspendisse tincidunt a odio ac scelerisque.
