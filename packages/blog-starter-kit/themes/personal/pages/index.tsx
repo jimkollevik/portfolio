@@ -89,6 +89,8 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						<li>Jim Kollevik</li>
 						<li>Product Owner</li>
 					</ul>
+				</div>
+				<div className="columns-2">	
 					<span>
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 						Suspendisse tincidunt a odio ac scelerisque.
