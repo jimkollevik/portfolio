@@ -98,7 +98,6 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						Suspendisse tincidunt a odio ac scelerisque.
 					</span>
 				</div>
-					<PersonalHeader />
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 						<button onClick={loadMore}>
