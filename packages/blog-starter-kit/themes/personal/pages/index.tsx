@@ -84,9 +84,15 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					/>
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col items-stretch gap-10 px-5 py-10">
-				<div className="mx-auto flex max-w-2xl flex-col items-stretch gap-10 px-5 py-10">
-					<p>Jim Kollevik</p>
-					<p>Product Owner Martech</p>
+				<div className="columns-2">
+					<ul>
+						<li>Jim Kollevik</li>
+						<li>Product Owner</li>
+					</ul>
+					<span>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+						Suspendisse tincidunt a odio ac scelerisque.
+					</span>
 				</div>
 					<PersonalHeader />
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
