@@ -4,10 +4,10 @@ export const Footer = () => {
 	const { publication } = useAppContext();
 
 	return (
-		<footer className="text-neutral-500 text-xs">
+		<footer className="text-neutral-500 text-sm">
 			<div className="grid grid-cols-2 gap-4">
 				<div className="">
-					<ul className="underline">
+					<ul className="underline inline-block">
         				<li>jim.kollevik@gmail.com</li>
         				<li><a href="#">Linkedin</a></li>
         				<li><a href="#">Resume</a></li>
