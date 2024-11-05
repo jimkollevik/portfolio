@@ -87,7 +87,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				<div className="grid grid-cols-2 gap-4">
 					<div className="">
 						<p>
-							Hi, I'm Jim
+							Hi, Im Jim
 							Product Owner
 						</p>
 					</div>
@@ -108,7 +108,15 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						Work
 					</div>
 					<div>
-					aslhdas
+						{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
+						{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+							<button onClick={loadMore}>
+								Load more
+							</button>
+						)}
+						{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+							<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
+						)}
 					</div>
 						<div>
 							Posts
