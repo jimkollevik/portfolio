@@ -87,7 +87,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				<div className="grid grid-cols-2 gap-4">
 					<div className="">
 						<p>
-							Hi, I'm Jim<br>
+							Hi, I'm Jim</br>
 							Product Owner
 						</p>
 					</div>
