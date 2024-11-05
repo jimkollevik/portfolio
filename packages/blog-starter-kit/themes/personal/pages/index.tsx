@@ -88,6 +88,8 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="min-h-450 mb-6">
 							<p>
 								Hi, Im Jim
+							</p>
+							<p>
 								Product Owner
 							</p>
 						</div>
