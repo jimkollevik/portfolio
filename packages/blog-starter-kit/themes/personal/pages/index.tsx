@@ -108,15 +108,6 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						Work
 					</div>
 					<div>
-						{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
-						{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-							<button onClick={loadMore}>
-								Load more
-							</button>
-						)}
-						{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-							<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
-						)}
 					</div>
 						<div>
 							Posts
