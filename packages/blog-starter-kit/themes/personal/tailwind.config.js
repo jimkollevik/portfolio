@@ -14,6 +14,9 @@ module.exports = {
 				cyan: '#79FFE1',
 				primary: colors.blue,
 			},
+			backgroundColor: {
+				'custom-bg': '#F9F9F9'
+			},
 			typography: () => ({
 				DEFAULT: {
 				  css: {
