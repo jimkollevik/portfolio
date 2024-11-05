@@ -85,13 +85,13 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col mt-20">
 				<div className="grid grid-cols-2 gap-3 text-sm">
-					<div className="min-h-64">
+					<div className="min-h-64 mb-3">
 							<p>
 								Hi, Im Jim
 								Product Owner
 							</p>
 						</div>
-						<div className="min-h-64">	
+						<div className="min-h-64 mb-3">	
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 								Suspendisse tincidunt a odio ac scelerisque.
@@ -104,10 +104,10 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							</p>
 							<p className="underline"><a href="" >jim.kollevik@gmail.com</a></p>
 						</div>
-						<div className="min-h-64">	
+						<div className="min-h-64 mb-3">	
 							Work
 						</div>
-						<div className="min-h-64">
+						<div className="min-h-64 mb-3">
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 								<button onClick={loadMore}>
@@ -118,10 +118,10 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 							)}
 						</div>
-						<div className="min-h-64">
+						<div className="min-h-64 mb-3">
 							Posts
 						</div>
-						<div className="min-h-64">	
+						<div className="min-h-64 mb-3">	
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 								<button onClick={loadMore}>
@@ -132,12 +132,12 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 							)}
 							</div>
-						<div className="min-h-64">
+						<div className="min-h-64 mb-3">
 							<p>
 								Certifications
 							</p>
 						</div>
-						<div className="min-h-64">	
+						<div className="min-h-64 mb-3">	
 							<ul>
 								<li>2024 - Scrum Product Owner</li>
 								<li>2024 - Salesforce Business Analyst</li>
@@ -146,12 +146,12 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								<li>2021 - Google Analytics Qualification</li>
 							</ul>
 						</div>
-						<div className="min-h-64">
+						<div className="min-h-64 mb-3">
 							<p>
 								Toolkit
 							</p>
 						</div>
-						<div className="min-h-64">	
+						<div className="min-h-64 mb-3">	
 							<ul>
 								<li>Salesforce CRM</li>
 								<li>Salesforce Marketing Cloud</li>
