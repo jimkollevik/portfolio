@@ -107,7 +107,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						<div className="min-h-450 mb-6">	
 							Work
 						</div>
-						<div className="min-h-450 mb-6">
+						<div className="min-h-450 mb-6 text-sm">
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 								<button onClick={loadMore}>
@@ -121,7 +121,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						<div className="min-h-450 mb-6">
 							Posts
 						</div>
-						<div className="min-h-450 mb-6">	
+						<div className="min-h-450 mb-6 text-sm">	
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 								<button onClick={loadMore}>
