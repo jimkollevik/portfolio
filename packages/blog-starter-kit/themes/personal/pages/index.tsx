@@ -141,6 +141,9 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<ul>
 								<li>2024 - Scrum Product Owner</li>
 								<li>2024 - Salesforce Business Analyst</li>
+								<li>2023 - TUFF Leadership training</li>
+								<li>2023 - Hubspot Email Marketing</li>
+								<li>2021 - Google Analytics Qualification</li>
 							</ul>
 						</div>
 						<div className="">
@@ -152,6 +155,12 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<ul>
 								<li>Salesforce CRM</li>
 								<li>Salesforce Marketing Cloud</li>
+								<li>Google Analytics</li>
+								<li>Agile Development</li>
+								<li>Azure DevOps</li>
+								<li>HTML/CSS</li>
+								<li>ChatGPT</li>
+								<li>Office & Adobe packages</li>
 							</ul>
 						</div>
 					</div>
