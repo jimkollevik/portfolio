@@ -84,7 +84,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					/>
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col">
-				<div className="grid grid-cols-2 gap-4 text-xs">
+				<div className="grid grid-cols-2 gap-3 text-sm">
 					<div className="min-h-64">
 							<p>
 								Hi, Im Jim
