@@ -83,18 +83,20 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						}}
 					/>
 				</Head>
-				<Container className="grid grid-cols-2 gap-4">
-				<div className="bg-blue-500">
+				<Container className="mx-auto flex max-w-3xl flex-col">
+				<div className="grid grid-cols-2 gap-4">
+					<div className="bg-blue-500">
 						<ul>
 							<li>Jim Kollevik</li>
 							<li>Product Owner</li>
 						</ul>
-				</div>
-				<div className="bg-blue-500">	
-					<span>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-						Suspendisse tincidunt a odio ac scelerisque.
-					</span>
+					</div>
+					<div className="bg-blue-500">	
+						<span>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+							Suspendisse tincidunt a odio ac scelerisque.
+						</span>
+					</div>
 				</div>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
