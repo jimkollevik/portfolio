@@ -108,6 +108,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						Work
 					</div>
 					<div>
+					aslhdas
 					</div>
 						<div>
 							Posts
@@ -122,6 +123,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 							<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 						)}
+						</div>
 						</div>
 					</div>
 					<Footer />
