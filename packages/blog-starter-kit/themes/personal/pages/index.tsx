@@ -86,51 +86,73 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				<Container className="mx-auto flex max-w-3xl flex-col">
 				<div className="grid grid-cols-2 gap-4">
 					<div className="">
-						<p>
-							Hi, Im Jim
-							Product Owner
-						</p>
-					</div>
-					<div className="">	
-						<p>
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-							Suspendisse tincidunt a odio ac scelerisque.
-						</p>
-						<p>
-							Sed dignissim in magna quis facilisis. Donec malesuada justo nec lacinia lobortis. Nunc ac nulla et leo egestas fermentum a et magna. Sed sit amet convallis quam.
-						</p>
-						<p>
-							Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
-						</p>
-						<p><a href="" >jim.kollevik@gmail.com</a></p>
-					</div>
-					<div className="">	
-						Work
-					</div>
-					<div>
-						{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
-						{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-							<button onClick={loadMore}>
-								Load more
-							</button>
-						)}
-						{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-							<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
-						)}
-					</div>
+							<p>
+								Hi, Im Jim
+								Product Owner
+							</p>
+						</div>
+						<div className="">	
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
+								Suspendisse tincidunt a odio ac scelerisque.
+							</p>
+							<p>
+								Sed dignissim in magna quis facilisis. Donec malesuada justo nec lacinia lobortis. Nunc ac nulla et leo egestas fermentum a et magna. Sed sit amet convallis quam.
+							</p>
+							<p>
+								Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
+							</p>
+							<p><a href="" >jim.kollevik@gmail.com</a></p>
+						</div>
+						<div className="">	
+							Work
+						</div>
+						<div>
+							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
+							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+								<button onClick={loadMore}>
+									Load more
+								</button>
+							)}
+							{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
+							)}
+						</div>
 						<div>
 							Posts
 						</div>
 						<div>	
-						{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
-						{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-							<button onClick={loadMore}>
-								Load more
-							</button>
-						)}
-						{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-							<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
-						)}
+							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
+							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+								<button onClick={loadMore}>
+									Load more
+								</button>
+							)}
+							{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
+							)}
+							</div>
+						<div className="">
+							<p>
+								Certifications
+							</p>
+						</div>
+						<div className="">	
+							<ul>
+								<li>2024 - Scrum Product Owner</li>
+								<li>2024 - Salesforce Business Analyst</li>
+							</ul>
+						</div>
+						<div className="">
+							<p>
+								Toolkit
+							</p>
+						</div>
+						<div className="">	
+							<ul>
+								<li>Salesforce CRM</li>
+								<li>Salesforce Marketing Cloud</li>
+							</ul>
 						</div>
 					</div>
 					<Footer />
