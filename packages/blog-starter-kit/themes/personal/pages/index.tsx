@@ -83,7 +83,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						}}
 					/>
 				</Head>
-				<Container className="mx-auto flex max-w-3xl flex-col">
+				<Container className="mx-auto flex max-w-3xl flex-col text-sx">
 				<div className="grid grid-cols-2 gap-4">
 					<div className="">
 							<p>
@@ -102,7 +102,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<p>
 								Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
 							</p>
-							<p><a href="" >jim.kollevik@gmail.com</a></p>
+							<p className="underline"><a href="" >jim.kollevik@gmail.com</a></p>
 						</div>
 						<div className="">	
 							Work
