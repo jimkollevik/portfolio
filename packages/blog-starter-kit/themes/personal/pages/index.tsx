@@ -124,7 +124,6 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 						)}
 						</div>
-						</div>
 					</div>
 					<Footer />
 				</Container>
