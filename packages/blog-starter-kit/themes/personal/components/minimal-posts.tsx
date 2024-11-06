@@ -8,6 +8,7 @@ type Props = {
 
 export const MinimalPosts = ({ posts }: Props) => {
 	return (
+		<div>Hello</div>
 		<section className="min-h-450 mb-6 text-sm">
 			{posts.map((post) => (
 				<MinimalPostPreview
