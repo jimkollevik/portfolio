@@ -11,6 +11,7 @@ module.exports = {
 				'accent-2': '#EAEAEA',
 				'accent-7': '#333',
 				'secondary-grey': '#757575',
+				'custom': '#F9F9F9',
 				success: '#0070f3',
 				cyan: '#79FFE1',
 				primary: colors.blue,
