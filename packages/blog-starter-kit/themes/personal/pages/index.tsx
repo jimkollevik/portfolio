@@ -65,7 +65,6 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							publication.descriptionSEO || publication.title || `${publication.author.name}'s Blog`
 						}
 					/>
-					<meta charset="utf-8" />
 					<meta property="twitter:card" content="summary_large_image"/>
 					<meta property="twitter:title" content={publication.displayTitle || publication.title || 'Hashnode Blog Starter Kit'} />
 					<meta property="twitter:description" content={publication.descriptionSEO || publication.title || `${publication.author.name}'s Blog`} />
