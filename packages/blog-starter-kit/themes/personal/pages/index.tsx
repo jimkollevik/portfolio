@@ -85,7 +85,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col mt-32">
 				<div className="grid grid-cols-2 gap-3 text-sm">
-					<div className="mb-32 border-b-[1px]">
+					<div className="mt-32 border-b-[1px]">
 							<p>
 								Hi, Im Jim
 							</p>
@@ -93,7 +93,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								Product Owner
 							</p>
 						</div>
-						<div className="mb-32 border-b-[1px]">	
+						<div className="mt-32 border-b-[1px]">	
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 								Suspendisse tincidunt a odio ac scelerisque.
@@ -106,10 +106,10 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							</p>
 							<p className="underline"><a href="" >jim.kollevik@gmail.com</a></p>
 						</div>
-						<div className="mb-32 border-b-[1px]">	
+						<div className="mt-32 border-b-[1px]">	
 							Case
 						</div>
-						<div className="mb-32 text-sm border-b-[1px]">
+						<div className="mt-32 text-sm border-b-[1px]">
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 								<button onClick={loadMore}>
@@ -120,10 +120,10 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 							)}
 						</div>
-						<div className="mb-32 border-b-[1px]">
+						<div className="mt-32 border-b-[1px]">
 							Posts
 						</div>
-						<div className="mb-32 text-sm border-b-[1px]">	
+						<div className="mt-32 text-sm border-b-[1px]">	
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 								<button onClick={loadMore}>
@@ -134,12 +134,12 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 							)}
 							</div>
-						<div className="mb-32 border-b-[1px]">
+						<div className="mt-32 border-b-[1px]">
 							<p>
 								Certifications
 							</p>
 						</div>
-						<div className="mb-32 border-b-[1px]">	
+						<div className="mt-32 border-b-[1px]">	
 							<ul>
 								<li>2024 - Scrum Product Owner</li>
 								<li>2024 - Salesforce Business Analyst</li>
@@ -148,12 +148,12 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								<li>2021 - Google Analytics Qualification</li>
 							</ul>
 						</div>
-						<div className="mb-32 border-b-[1px]">
+						<div className="mt-32 border-b-[1px]">
 							<p>
 								Toolkit
 							</p>
 						</div>
-						<div className="mb-32 border-b-[1px]">	
+						<div className="mt-32 border-b-[1px]">	
 							<ul>
 								<li>Salesforce CRM</li>
 								<li>Salesforce Marketing Cloud</li>
