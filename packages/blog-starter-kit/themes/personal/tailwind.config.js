@@ -17,6 +17,9 @@ module.exports = {
 			backgroundColor: {
 				'custom-bg': '#F9F9F9'
 			},
+			fontFamily: {
+				roboto: ["Roboto","sans-serif"],
+			},
 			typography: () => ({
 				DEFAULT: {
 				  css: {
