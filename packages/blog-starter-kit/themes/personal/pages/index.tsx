@@ -85,7 +85,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col mt-32">
 				<div className="grid grid-cols-2 gap-3 text-sm">
-					<div className="min-h-450 mb-6">
+					<div className="min-h-450 mb-6 border-b-[1px]">
 							<p>
 								Hi, Im Jim
 							</p>
@@ -93,7 +93,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								Product Owner
 							</p>
 						</div>
-						<div className="min-h-450 mb-6">	
+						<div className="min-h-450 mb-6 border-b-[1px]">	
 							<p>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 								Suspendisse tincidunt a odio ac scelerisque.
