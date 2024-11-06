@@ -94,7 +94,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							</p>
 						</div>
 						<div className="border-b-[1px]">	
-							<p className="leading-4">
+							<p className="leading-6">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 								Suspendisse tincidunt a odio ac scelerisque.
 							</p>
