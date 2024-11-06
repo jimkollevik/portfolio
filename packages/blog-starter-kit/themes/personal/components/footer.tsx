@@ -7,7 +7,7 @@ export const Footer = () => {
 		<footer className="text-neutral-500 text-sm">
 			<div className="grid grid-cols-2 gap-4">
 				<div className="">
-					<ul className="underline inline-block">
+					<ul className="underline inline">
         				<li>jim.kollevik@gmail.com</li>
         				<li><a href="#">Linkedin</a></li>
         				<li><a href="#">Resume</a></li>
