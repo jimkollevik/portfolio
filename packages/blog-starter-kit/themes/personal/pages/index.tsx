@@ -107,7 +107,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<p className="underline"><a href="" >jim.kollevik@gmail.com</a></p>
 						</div>
 						<div className="min-h-450 mb-6">	
-							Work
+							Case
 						</div>
 						<div className="min-h-450 mb-6 text-sm">
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}

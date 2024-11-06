@@ -21,9 +21,6 @@ export const MinimalPostPreview = ({ title, date, slug, commentCount }: Props) =
 				<Link href={postURL}>{title}</Link>
 			</p>
 			<p className="flex flex-row items-center gap-2">
-				<Link href={postURL} className="text-sm text-neutral-600 dark:text-neutral-400">
-					<DateFormatter dateString={date} />
-				</Link>
 				{commentCount > 2 && (
 					<>
 						<span>&middot;</span>
