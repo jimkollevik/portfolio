@@ -83,7 +83,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						}}
 					/>
 				</Head>
-				<Container className="mx-auto flex max-w-3xl flex-col mt-32 font-roboto font-normal">
+				<Container className="mx-auto flex max-w-3xl flex-col mt-32 font-roboto font-light">
 				<div className="grid grid-cols-2 gap-3 text-sm">
 					<div className="border-b-[1px]">
 							<p>
@@ -104,9 +104,9 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<p className="">
 								Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
 							</p>
-							<p className="underline"><a href="" >jim.kollevik@gmail.com</a></p>
+							<p className="underline text-secondary-grey"><a href="" >jim.kollevik@gmail.com</a></p>
 						</div>
-						<div className="border-b-[1px]">	
+						<div className="border-b-[1px] text-secondary-grey">	
 							Case
 						</div>
 						<div className="text-sm border-b-[1px]">
@@ -120,21 +120,21 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 							)}
 						</div>
-						<div className="border-b-[1px]">
+						<div className="border-b-[1px] text-secondary-grey">
 							<p>
 								Certifications
 							</p>
 						</div>
 						<div className="border-b-[1px]">	
 							<ul>
-								<li><span className="text-[#757575]">2024 • </span>Scrum Product Owner</li>
-								<li><span className="text-[#757575]">2024 • </span>Salesforce Business Analyst</li>
-								<li><span className="text-[#757575]">2023 • </span>TUFF Leadership training</li>
-								<li><span className="text-[#757575]">2023 • </span>Hubspot Email Marketing</li>
-								<li><span className="text-[#757575]">2021 • </span>Google Analytics Qualification</li>
+								<li><span className="text-secondary-grey">2024 • </span>Scrum Product Owner</li>
+								<li><span className="text-secondary-grey">2024 • </span>Salesforce Business Analyst</li>
+								<li><span className="text-secondary-grey">2023 • </span>TUFF Leadership training</li>
+								<li><span className="text-secondary-grey">2023 • </span>Hubspot Email Marketing</li>
+								<li><span className="text-secondary-grey">2021 • </span>Google Analytics Qualification</li>
 							</ul>
 						</div>
-						<div className="border-b-[1px]">
+						<div className="border-b-[1px] text-secondary-grey">
 							<p>
 								Toolkit
 							</p>
