@@ -13,7 +13,7 @@ export const Footer = () => {
         				<li><a href="#">Resume</a></li>
       				</ul>
       			</div>
-      			<div className="">
+      			<div className="text-right">
       				<ul>
         				<li>Trying to be 1% everyday</li>
       				</ul>
