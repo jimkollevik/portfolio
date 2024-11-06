@@ -10,12 +10,10 @@ module.exports = {
 				'accent-1': '#FAFAFA',
 				'accent-2': '#EAEAEA',
 				'accent-7': '#333',
+				'secondary-grey': '#757575',
 				success: '#0070f3',
 				cyan: '#79FFE1',
 				primary: colors.blue,
-			},
-			backgroundColor: {
-				'custom-bg': '#F9F9F9'
 			},
 			fontFamily: {
 				roboto: ["Roboto","sans-serif"],

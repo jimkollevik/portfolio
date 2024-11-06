@@ -94,14 +94,14 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							</p>
 						</div>
 						<div className="border-b-[1px]">	
-							<p className="leading-5">
+							<p className="">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 								Suspendisse tincidunt a odio ac scelerisque.
 							</p>
-							<p className="leading-5">
+							<p className="">
 								Sed dignissim in magna quis facilisis. Donec malesuada justo nec lacinia lobortis. Nunc ac nulla et leo egestas fermentum a et magna. Sed sit amet convallis quam.
 							</p>
-							<p className="leading-5">
+							<p className="">
 								Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
 							</p>
 							<p className="underline"><a href="" >jim.kollevik@gmail.com</a></p>
