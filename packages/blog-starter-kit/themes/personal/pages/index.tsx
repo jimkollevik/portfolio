@@ -84,7 +84,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					/>
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col mt-32 font-roboto font-light">
-				<div className="grid grid-cols-2 gap-3 text-sx">
+				<div className="grid grid-cols-2 gap-3 text-xs">
 					<div className="border-b-[1px]">
 							<p>
 								Hi, Im Jim
@@ -107,7 +107,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<p className="underline text-secondary-grey"><a href="" >jim.kollevik@gmail.com</a></p>
 						</div>
 						<div className="border-b-[1px] text-secondary-grey">	
-							Case
+							Work
 						</div>
 						<div className="text-sm border-b-[1px]">
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
