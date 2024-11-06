@@ -141,11 +141,11 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						</div>
 						<div className="border-b-[1px]">	
 							<ul>
-								<li><span className="accent-custom">2024 • </span>Scrum Product Owner</li>
-								<li><span className="accent-custom">2024 • </span>Salesforce Business Analyst</li>
-								<li><span className="accent-custom">2023 • </span>TUFF Leadership training</li>
-								<li><span className="accent-custom">2023 • </span>Hubspot Email Marketing</li>
-								<li><span className="accent-custom">2021 • </span>Google Analytics Qualification</li>
+								<li><span className="text-[#757575]">2024 • </span>Scrum Product Owner</li>
+								<li><span className="text-[#757575]">2024 • </span>Salesforce Business Analyst</li>
+								<li><span className="text-[#757575]">2023 • </span>TUFF Leadership training</li>
+								<li><span className="text-[#757575]">2023 • </span>Hubspot Email Marketing</li>
+								<li><span className="text-[#757575]">2021 • </span>Google Analytics Qualification</li>
 							</ul>
 						</div>
 						<div className="border-b-[1px]">
