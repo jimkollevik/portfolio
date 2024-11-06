@@ -121,20 +121,6 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							)}
 						</div>
 						<div className="border-b-[1px]">
-							Posts
-						</div>
-						<div className="text-sm border-b-[1px]">	
-							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
-							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-								<button onClick={loadMore}>
-									Load more
-								</button>
-							)}
-							{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
-							)}
-							</div>
-						<div className="border-b-[1px]">
 							<p>
 								Certifications
 							</p>

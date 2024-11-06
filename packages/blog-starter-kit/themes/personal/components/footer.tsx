@@ -15,7 +15,7 @@ export const Footer = () => {
       			</div>
       			<div className="text-right">
       				<ul>
-        				<li>Trying to be 1% everyday</li>
+        				<li className="text-[#757575]">Trying to be 1% everyday</li>
       				</ul>
       			</div>
       		</div>
