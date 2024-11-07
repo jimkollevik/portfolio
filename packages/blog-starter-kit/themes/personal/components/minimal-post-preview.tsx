@@ -22,7 +22,7 @@ export const MinimalPostPreview = ({ title, date, slug, commentCount }: Props) =
 			</h2>
 			<p className="flex flex-row items-center gap-2">
 				<Link href={postURL} className="text-sm text-neutral-600 dark:text-neutral-400">
-					<DateFormatter dateString={date} />
+					{subtitle}
 				</Link>
 			</p>
 		</section>
