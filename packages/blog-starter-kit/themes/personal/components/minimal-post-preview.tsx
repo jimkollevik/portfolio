@@ -8,12 +8,11 @@ type Props = {
 	title: string;
 	date: string;
 	author: Author;
-	subtitle: string;
 	slug: string;
 	commentCount: number;
 };
 
-export const MinimalPostPreview = ({ title, date, subtitle, slug, commentCount }: Props) => {
+export const MinimalPostPreview = ({ title, date, slug, commentCount }: Props) => {
 	const postURL = `/${slug}`;
 
 	return (
@@ -21,8 +20,9 @@ export const MinimalPostPreview = ({ title, date, subtitle, slug, commentCount }
 			<h2 className="text-base text-black dark:text-white">
 				<Link href={postURL}>{title}</Link>
 			</h2>
-			<p className="flex flex-row items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400">
-				<Link href={postURL}>{subtitle}
+			<p className="flex flex-row items-center gap-2">
+				<Link href={postURL} className="text-sm text-neutral-600 dark:text-neutral-400">
+					<DateFormatter dateString={date} />
 				</Link>
 			</p>
 		</section>
