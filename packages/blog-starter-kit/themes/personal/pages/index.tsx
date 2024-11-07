@@ -83,7 +83,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						}}
 					/>
 				</Head>
-				<Container className="mx-auto flex max-w-2xl flex-col items-stretch gap-10 px-5 py-10 mt-44">
+				<Container className="mx-auto flex max-w-2xl flex-col items-stretch gap-10 px-5 py-10 pt-44">
 					<PersonalHeader />
 					<div>
 					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences.
