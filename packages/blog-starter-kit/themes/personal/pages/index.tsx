@@ -94,14 +94,14 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							</p>
 						</div>
 						<div className="border-b-[1px]">	
-							<p className="">
+							<p className="mb-6">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 								Suspendisse tincidunt a odio ac scelerisque.
 							</p>
-							<p className="">
+							<p className="mb-6">
 								Sed dignissim in magna quis facilisis. Donec malesuada justo nec lacinia lobortis. Nunc ac nulla et leo egestas fermentum a et magna. Sed sit amet convallis quam.
 							</p>
-							<p className="">
+							<p className="mb-6">
 								Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
 							</p>
 							<p className="underline text-secondary-grey"><a href="" >jim.kollevik@gmail.com</a></p>
@@ -109,7 +109,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						<div className="border-b-[1px] text-secondary-grey">	
 							Work
 						</div>
-						<div className="text-sm border-b-[1px]">
+						<div className="text-sx border-b-[1px]">
 							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 								<button onClick={loadMore}>
