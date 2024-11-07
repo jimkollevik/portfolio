@@ -140,7 +140,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							</p>
 						</div>
 						<div className="border-b-[1px] min-h-52 mb-5">	
-							<ul>
+							<ul className="mb-5">
 								<li>Salesforce CRM</li>
 								<li>Salesforce Marketing Cloud</li>
 								<li>Google Analytics</li>

@@ -8,8 +8,8 @@ export const Footer = () => {
 			<div className="grid grid-cols-2 gap-4 text-xs">
 				<div className="">
 					<ul className="underline flex">
-        				<li>jim.kollevik@gmail.com</li>
-        				<li><a href="#">Linkedin</a></li>
+        				<li className="mr-2">jim.kollevik@gmail.com</li>
+        				<li className="mr-2"><a href="#">Linkedin</a></li>
         				<li><a href="#">Resume</a></li>
       				</ul>
       			</div>
