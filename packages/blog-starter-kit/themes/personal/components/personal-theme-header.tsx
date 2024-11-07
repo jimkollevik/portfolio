@@ -71,7 +71,7 @@ export const PersonalHeader = () => {
 							aria-label={`${publication.author.name}'s home page`}>
 							{publication.title}
 						</Link>
-						<br>
+						\n
 						<span>Product Owner</span>
 					</h1>
 					<ToggleTheme className="md:hidden" />
