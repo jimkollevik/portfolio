@@ -68,9 +68,11 @@ export const PersonalHeader = () => {
 						<Link
 							className="flex flex-row items-center gap-2 text-base leading-tight tracking-tight text-black dark:text-white"
 							href="/"
-							aria-label={`${publication.author.name}'s blog home page`}>
+							aria-label={`${publication.author.name}'s home page`}>
 							{publication.title}
 						</Link>
+						</br>
+						<span>Product Owner</span>
 					</h1>
 					<ToggleTheme className="md:hidden" />
 				</div>
