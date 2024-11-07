@@ -107,6 +107,22 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 					)}
 					</div>
+
+					<div>
+					<h2>Toolbox</h2>
+					</div>
+
+					<div>
+					<h2>Testimonial</h2>
+					</div>			
+
+					<div>
+					<h2>Certifications</h2>
+					</div>
+
+					<div>
+					<h2>Thanks & contact</h2>
+					</div>												
 					<Footer />
 				</Container>
 			</Layout>
