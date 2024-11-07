@@ -86,8 +86,11 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				<Container className="mx-auto flex max-w-2xl flex-col items-stretch gap-10 px-5 py-10 mt-44">
 					<PersonalHeader />
 					<div>
-					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences. Currently trying to figure out AI. When I&apos;m not
+					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences.
+						<br><br>
+					Currently implementing Salesforce CRM. When I&apos;m not
 					doing that I&apos;m either in the slopes or in the kitchen cooking italian food. Sometimes I finish a book but more often thinking of new ideas, technologies or code.
+						<br><br>
 					Get in touch on <a href="" className="underline">jim.kollevik@gmail.com</a></p>
 					</div>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
