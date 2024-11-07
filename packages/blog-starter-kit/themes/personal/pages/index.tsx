@@ -87,10 +87,10 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<PersonalHeader />
 					<div>
 					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences.
-						<br><br>
+						<br/><br/>
 					Currently implementing Salesforce CRM. When I&apos;m not
 					doing that I&apos;m either in the slopes or in the kitchen cooking italian food. Sometimes I finish a book but more often thinking of new ideas, technologies or code.
-						<br><br>
+						<br/><br/>
 					Get in touch on <a href="" className="underline">jim.kollevik@gmail.com</a></p>
 					</div>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
