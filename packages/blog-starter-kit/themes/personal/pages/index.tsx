@@ -126,7 +126,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							</p>
 						</div>
 						<div className="border-b-[1px] min-h-52 mb-5">	
-							<ul>
+							<ul className="mb-5">
 								<li><span className="text-secondary-grey">2024 • </span>Scrum Product Owner</li>
 								<li><span className="text-secondary-grey">2024 • </span>Salesforce Business Analyst</li>
 								<li><span className="text-secondary-grey">2023 • </span>TUFF Leadership training</li>
