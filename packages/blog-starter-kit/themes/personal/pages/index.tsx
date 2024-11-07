@@ -93,6 +93,8 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						<br/><br/>
 					Get in touch on <a href="" className="underline">jim.kollevik@gmail.com</a></p>
 					</div>
+
+					<div>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 						<button onClick={loadMore}>
@@ -102,7 +104,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 						<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 					)}
-
+					</div>
 					<Footer />
 				</Container>
 			</Layout>
