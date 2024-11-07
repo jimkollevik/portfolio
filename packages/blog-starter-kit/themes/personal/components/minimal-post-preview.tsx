@@ -10,10 +10,9 @@ type Props = {
 	author: Author;
 	slug: string;
 	commentCount: number;
-	subtitle: string;
 };
 
-export const MinimalPostPreview = ({ title, date, slug, commentCount, subtitle }: Props) => {
+export const MinimalPostPreview = ({ title, date, slug, commentCount}: Props) => {
 	const postURL = `/${slug}`;
 
 	return (
