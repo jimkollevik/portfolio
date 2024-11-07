@@ -128,7 +128,7 @@ const Post = ({ publication, post }: PostProps) => {
 				/>
 				<style dangerouslySetInnerHTML={{ __html: highlightJsMonokaiTheme }}></style>
 			</Head>
-			<h1 className="text-2xl font-bold leading-tight tracking-tight text-black dark:text-white mt-32">
+			<h1 className="text-4xl font-bold leading-tight tracking-tight text-black dark:text-white">
 				{post.title}
 			</h1>
 			<div className="flex tracking-tight gap-2 text-neutral-600 dark:text-neutral-400">
@@ -172,6 +172,7 @@ export default function PostOrPage(props: Props) {
 		<AppProvider publication={publication} post={maybePost} page={maybePage}>
 			<Layout>
 				<Container className="mx-auto flex max-w-3xl flex-col items-stretch gap-10 px-5 py-10">
+					<PersonalHeader />
 					<article className="flex flex-col items-start gap-10 pb-10">
 						{props.type === 'post' && <Post {...props} />}
 						{props.type === 'page' && <Page {...props} />}

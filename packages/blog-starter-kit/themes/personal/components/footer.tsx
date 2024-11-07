@@ -4,21 +4,8 @@ export const Footer = () => {
 	const { publication } = useAppContext();
 
 	return (
-		<footer className="text-neutral-500 text-sm">
-			<div className="grid grid-cols-2 gap-4 text-xs">
-				<div className="">
-					<ul className="underline flex">
-        				<li className="mr-2">jim.kollevik@gmail.com</li>
-        				<li className="mr-2"><a href="#">Linkedin</a></li>
-        				<li><a href="#">Resume</a></li>
-      				</ul>
-      			</div>
-      			<div className="text-right">
-      				<ul>
-        				<li className="text-[#757575]">Trying to be 1% everyday</li>
-      				</ul>
-      			</div>
-      		</div>
+		<footer className="border-t pt-10 text-sm text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">
+			&copy; {new Date().getFullYear()} {publication.title}
 		</footer>
 	);
 };

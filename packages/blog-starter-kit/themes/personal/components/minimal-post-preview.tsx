@@ -16,10 +16,23 @@ export const MinimalPostPreview = ({ title, date, slug, commentCount }: Props) =
 	const postURL = `/${slug}`;
 
 	return (
-
-			<p className="text-xs">
-				<Link href={postURL}>{title}<span className="text-secondary-grey">&#x2197;</span></Link>
+		<section className="flex flex-col items-start gap-1">
+			<h2 className="text-lg leading-tight tracking-tight text-black dark:text-white">
+				<Link href={postURL}>{title}</Link>
+			</h2>
+			<p className="flex flex-row items-center gap-2">
+				<Link href={postURL} className="text-sm text-neutral-600 dark:text-neutral-400">
+					<DateFormatter dateString={date} />
+				</Link>
+				{commentCount > 2 && (
+					<>
+						<span>&middot;</span>
+						<Link href={postURL} className="text-sm text-neutral-600 dark:text-neutral-400">
+							{commentCount} comments
+						</Link>
+					</>
+				)}
 			</p>
-
+		</section>
 	);
 };

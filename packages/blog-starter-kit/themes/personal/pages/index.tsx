@@ -83,75 +83,18 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						}}
 					/>
 				</Head>
-				<Container className="mx-auto flex max-w-3xl flex-col mt-32">
-				<div className="grid grid-cols-2 gap-1 text-xs">
-					<div className="border-b-[1px] mb-5 min-h-52">
-							<p>
-								Hi, Im Jim
-							</p>
-							<p className="text-secondary-grey">
-								Product Owner
-							</p>
-						</div>
-						<div className="border-b-[1px] mb-5 min-h-52">	
-							<p className="mb-5">
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
-								Suspendisse tincidunt a odio ac scelerisque.
-							</p>
-							<p className="mb-5">
-								Sed dignissim in magna quis facilisis. Donec malesuada justo nec lacinia lobortis. Nunc ac nulla et leo egestas fermentum a et magna. Sed sit amet convallis quam.
-							</p>
-							<p className="mb-5">
-								Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
-							</p>
-							<p className="underline text-secondary-grey mb-5"><a href="" >jim.kollevik@gmail.com</a></p>
-						</div>
-						<div className="border-b-[1px] text-secondary-grey mb-5">	
-							Work
-						</div>
-						<div className="text-xs border-b-[1px] min-h-52 mb-5">
-							{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
-							{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-								<button onClick={loadMore}>
-									Load more
-								</button>
-							)}
-							{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
-								<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
-							)}
-						</div>
-						<div className="border-b-[1px] min-h-52 text-secondary-grey mb-5">
-							<p>
-								Certifications
-							</p>
-						</div>
-						<div className="border-b-[1px] min-h-52 mb-5">	
-							<ul className="mb-5">
-								<li><span className="text-secondary-grey">2024 • </span>Scrum Product Owner</li>
-								<li><span className="text-secondary-grey">2024 • </span>Salesforce Business Analyst</li>
-								<li><span className="text-secondary-grey">2023 • </span>TUFF Leadership training</li>
-								<li><span className="text-secondary-grey">2023 • </span>Hubspot Email Marketing</li>
-								<li><span className="text-secondary-grey">2021 • </span>Google Analytics Qualification</li>
-							</ul>
-						</div>
-						<div className="border-b-[1px] min-h-52 text-secondary-grey mb-5">
-							<p>
-								Toolkit
-							</p>
-						</div>
-						<div className="border-b-[1px] min-h-52 mb-5">	
-							<ul className="mb-5">
-								<li>Salesforce CRM</li>
-								<li>Salesforce Marketing Cloud</li>
-								<li>Google Analytics</li>
-								<li>Agile Development</li>
-								<li>Azure DevOps</li>
-								<li>HTML/CSS</li>
-								<li>ChatGPT</li>
-								<li>Office & Adobe packages</li>
-							</ul>
-						</div>
-					</div>
+				<Container className="mx-auto flex max-w-3xl flex-col items-stretch gap-10 px-5 py-10">
+					<PersonalHeader />
+					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
+					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+						<button onClick={loadMore}>
+							Load more
+						</button>
+					)}
+					{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
+						<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
+					)}
+
 					<Footer />
 				</Container>
 			</Layout>
