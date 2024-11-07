@@ -12,7 +12,7 @@ type Props = {
 	commentCount: number;
 };
 
-export const MinimalPostPreview = ({ title, date, subtitle slug, commentCount }: Props) => {
+export const MinimalPostPreview = ({ title, date, subtitle, slug }: Props) => {
 	const postURL = `/${slug}`;
 
 	return (
