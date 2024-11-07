@@ -5,7 +5,7 @@ export const Footer = () => {
 
 	return (
 		<footer className="text-neutral-500 text-sm">
-			<div className="grid grid-cols-2 gap-4">
+			<div className="grid grid-cols-2 gap-4 text-xs">
 				<div className="">
 					<ul className="underline flex">
         				<li>jim.kollevik@gmail.com</li>
