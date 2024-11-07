@@ -66,22 +66,15 @@ export const PersonalHeader = () => {
 				<div className="flex justify-between">
 					<h1>
 						<Link
-							className="flex flex-row items-center gap-2 text-lg font-bold leading-tight tracking-tight text-black dark:text-white"
+							className="flex flex-row items-center gap-2 text-base leading-tight tracking-tight text-black dark:text-white"
 							href="/"
-							aria-label={`${publication.author.name}'s blog home page`}
-						>
-							{publication.author.profilePicture && (
-								<img
-									className="block h-8 w-8 rounded-full fill-current"
-									alt={publication.author.name}
-									src={resizeImage(publication.author.profilePicture, {
-										w: 400,
-										h: 400,
-										c: 'face',
-									})}
-								/>
-							)}
-							{publication.title}
+							aria-label={`${publication.author.name}'s blog home page`}>
+						</Link>
+					</h1>
+					<h1>
+						<Link
+							className="flex flex-row items-center gap-2 text-base leading-tight tracking-tight text-black dark:text-white"
+							{publication.title}>
 						</Link>
 					</h1>
 					<ToggleTheme className="md:hidden" />
