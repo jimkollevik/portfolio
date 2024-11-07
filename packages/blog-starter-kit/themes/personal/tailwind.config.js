@@ -14,6 +14,9 @@ module.exports = {
 				cyan: '#79FFE1',
 				primary: colors.blue,
 			},
+			fontFamily: {
+				customFont: ['"Inter-Regular.woff2"', "sans-serif"],
+			},
 			typography: () => ({
 				DEFAULT: {
 				  css: {
