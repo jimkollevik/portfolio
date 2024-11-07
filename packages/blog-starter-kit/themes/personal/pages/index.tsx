@@ -85,7 +85,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				</Head>
 				<Container className="mx-auto flex max-w-3xl flex-col mt-32">
 				<div className="grid grid-cols-2 gap-1 text-xs">
-					<div className="border-b-[1px]">
+					<div className="border-b-[1px] mb-5">
 							<p>
 								Hi, Im Jim
 							</p>
@@ -93,18 +93,18 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 								Product Owner
 							</p>
 						</div>
-						<div className="border-b-[1px]">	
-							<p className="mb-6">
+						<div className="border-b-[1px] mb-5">	
+							<p className="mb-5">
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit. In a magna  nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.  
 								Suspendisse tincidunt a odio ac scelerisque.
 							</p>
-							<p className="mb-6">
+							<p className="mb-5">
 								Sed dignissim in magna quis facilisis. Donec malesuada justo nec lacinia lobortis. Nunc ac nulla et leo egestas fermentum a et magna. Sed sit amet convallis quam.
 							</p>
-							<p className="mb-6">
+							<p className="mb-5">
 								Curabitur mi neque, pellentesque a nulla id, porttitor aliquam nunc.
 							</p>
-							<p className="underline text-secondary-grey"><a href="" >jim.kollevik@gmail.com</a></p>
+							<p className="underline text-secondary-grey mb-5"><a href="" >jim.kollevik@gmail.com</a></p>
 						</div>
 						<div className="border-b-[1px] text-secondary-grey">	
 							Work
