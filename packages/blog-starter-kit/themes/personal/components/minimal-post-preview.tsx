@@ -8,8 +8,8 @@ type Props = {
 	title: string;
 	date: string;
 	author: Author;
+	subtitle: string;
 	slug: string;
-	commentCount: number;
 };
 
 export const MinimalPostPreview = ({ title, date, subtitle, slug }: Props) => {
