@@ -15,7 +15,7 @@ module.exports = {
 				primary: colors.blue,
 			},
 			fontFamily: {
-				customFont: ["Inter", "sans-serif"],
+				inter: ["Inter", "sans-serif"],
 			},
 			typography: () => ({
 				DEFAULT: {
