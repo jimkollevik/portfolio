@@ -96,7 +96,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 
 					<div>
 					<h2>Work</h2>
-					<br/><br/>
+					<br/>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 						<button onClick={loadMore}>
