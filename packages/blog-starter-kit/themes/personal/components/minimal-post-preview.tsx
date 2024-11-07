@@ -20,9 +20,8 @@ export const MinimalPostPreview = ({ title, date, subtitle, slug }: Props) => {
 			<h2 className="text-base text-black dark:text-white">
 				<Link href={postURL}>{title}</Link>
 			</h2>
-			<p className="flex flex-row items-center gap-2">
-				<Link href={postURL} className="text-sm text-neutral-600 dark:text-neutral-400">
-					<Link href={postURL}>{subtitle}</Link>
+			<p className="flex flex-row items-center gap-2 text-sm text-neutral-600 dark:text-neutral-400">
+				<Link href={postURL}>{subtitle}
 				</Link>
 			</p>
 		</section>
