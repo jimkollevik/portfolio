@@ -17,8 +17,8 @@ export const MinimalPostPreview = ({ title, date, slug, commentCount }: Props) =
 
 	return (
 
-			<p className="text-sm">
-				<Link href={postURL}>{title}</Link>
+			<p className="text-xs">
+				<Link href={postURL}>{title}<span className="text-secondary-grey">&#x2197;</span></Link>
 			</p>
 
 	);
