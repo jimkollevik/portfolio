@@ -6,7 +6,7 @@ type Author = Pick<User, 'name'>;
 
 type Props = {
 	title: string;
-	subtitle: string;
+	subtitle?: string;
 	date: string;
 	author: Author;
 	slug: string;
