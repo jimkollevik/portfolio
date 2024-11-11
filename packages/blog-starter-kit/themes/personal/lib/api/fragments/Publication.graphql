@@ -1,6 +1,7 @@
 fragment Publication on Publication {
 	id
 	title
+	subtitle
 	displayTitle
 	url
 	metaTags
