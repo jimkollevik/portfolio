@@ -110,6 +110,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 
 					<div>
 					<h2>Toolbox</h2>
+					<br/>
 						<ul>
 							<li>Salesforce CRM</li>
 							<li>Salesforce Marketing Cloud</li>
@@ -124,6 +125,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 
 					<div>
 					<h2>Testimonial</h2>
+					<br/>
 						<p>
 							It was a genuine pleasure working alongside Jim at Hertz. He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He&aposs passion for his work not only elevated our projects but also inspired those around him to strive for excellence. His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
 						</p>
@@ -131,12 +133,13 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 
 					<div>
 					<h2>Certifications</h2>
+					<br/>
 						<ul>
-							<li><span className="">2024</span> Scrum Product Owner</li>
-							<li><span className="">2024</span> Salesforce Business Analyst</li>
-							<li><span className="">2023</span> Hubspot Email Marketing</li>
-							<li><span className="">2023</span> TUFF Leadership training</li>
-							<li><span className="">2021</span> Google Analytics Qualification</li>
+							<li><span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">2024</span> Scrum Product Owner</li>
+							<li><span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">2024</span> Salesforce Business Analyst</li>
+							<li><span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">2023</span> Hubspot Email Marketing</li>
+							<li><span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">2023</span> TUFF Leadership training</li>
+							<li><span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">2021</span> Google Analytics Qualification</li>
 						</ul>
 					</div>
 
