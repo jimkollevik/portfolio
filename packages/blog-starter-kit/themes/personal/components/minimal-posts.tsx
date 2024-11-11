@@ -13,7 +13,7 @@ export const MinimalPosts = ({ posts }: Props) => {
 				<MinimalPostPreview
 					key={post.id}
 					title={post.title}
-					subtitle={post.subtitle}
+					subtitle={post.subtitle || ''}
 					date={post.publishedAt}
 					author={{
 						name: post.author.name,
