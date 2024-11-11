@@ -157,3 +157,6 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 		revalidate: 1,
 	};
 };
+<script type="text/javascript">
+console.log("Hello world!")
+</script>
