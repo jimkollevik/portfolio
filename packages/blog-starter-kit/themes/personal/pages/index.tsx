@@ -125,7 +125,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div>
 					<h2>Testimonial</h2>
 						<p>
-							It was a genuine pleasure working alongside Jim at Hertz. He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He's passion for his work not only elevated our projects but also inspired those around him to strive for excellence. His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
+							It was a genuine pleasure working alongside Jim at Hertz. He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He&aposs passion for his work not only elevated our projects but also inspired those around him to strive for excellence. His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
 						</p>
 					</div>			
 
