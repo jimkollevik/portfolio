@@ -110,14 +110,34 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 
 					<div>
 					<h2>Toolbox</h2>
+						<ul>
+							<li>Salesforce CRM</li>
+							<li>Salesforce Marketing Cloud</li>
+							<li>Google Analytics</li>
+							<li>Agile Development</li>
+							<li>Azure DevOps</li>
+							<li>HTML/CSS</li>
+							<li>ChatGPT</li>
+							<li>Adobe/Office packages</li>
+						</ul>
 					</div>
 
 					<div>
 					<h2>Testimonial</h2>
+						<p>
+							It was a genuine pleasure working alongside Jim at Hertz. He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He's passion for his work not only elevated our projects but also inspired those around him to strive for excellence. His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
+						</p>
 					</div>			
 
 					<div>
 					<h2>Certifications</h2>
+						<ul>
+							<li><span className="">2024</span> Scrum Product Owner</li>
+							<li><span className="">2024</span> Salesforce Business Analyst</li>
+							<li><span className="">2023</span> Hubspot Email Marketing</li>
+							<li><span className="">2023</span> TUFF Leadership training</li>
+							<li><span className="">2021</span> Google Analytics Qualification</li>
+						</ul>
 					</div>
 
 					<div>
@@ -157,6 +177,3 @@ export const getStaticProps: GetStaticProps<Props> = async () => {
 		revalidate: 1,
 	};
 };
-<script type="text/javascript">
-console.log("Hello world!")
-</script>
