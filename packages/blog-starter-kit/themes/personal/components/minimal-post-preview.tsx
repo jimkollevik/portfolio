@@ -6,13 +6,14 @@ type Author = Pick<User, 'name'>;
 
 type Props = {
 	title: string;
+	subtitle: string;
 	date: string;
 	author: Author;
 	slug: string;
 	commentCount: number;
 };
 
-export const MinimalPostPreview = ({ title, date, slug, commentCount }: Props) => {
+export const MinimalPostPreview = ({ title, subtitle, date, slug, commentCount }: Props) => {
 	const postURL = `/${slug}`;
 
 	return (
@@ -20,6 +21,7 @@ export const MinimalPostPreview = ({ title, date, slug, commentCount }: Props) =
 			<h2 className="text-base leading-tight tracking-tight text-black dark:text-white mb-2.5">
 				<Link href={postURL}>{title}</Link>
 			</h2>
+			<p>{subtitle}</p>
 		</section>
 	);
 };
