@@ -7,6 +7,7 @@ type Props = {
 };
 
 export const MinimalPosts = ({ posts }: Props) => {
+	console.log("Posts in MinimalPosts component:", posts);
 	return (
 		<section className="flex w-full flex-col items-stretch lg:max-w-lg">
 			{posts.map((post) => (
