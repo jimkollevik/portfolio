@@ -88,8 +88,12 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="max-w-sm mb-12 font-interLight">
 					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences.
 						<br/><br/>
+					I&apos;m fond of simplicity and productivity, trying to make things simple and to get 1% better for each day.
+						<br/><br/>
 					When I&apos;m not
-					doing that I&apos;m either in the slopes or in the kitchen cooking italian food. Sometimes I finish a book but more often thinking of new ideas, technologies or code.
+					doing that I&apos;m either in the slopes or in the kitchen cooking italian food.
+						<br/><br/>
+					Sometimes I finish a book but more often thinking of new ideas, technologies or code.
 						<br/><br/>
 					Get in touch: <a href="" className="underline text-accent-1 text-sm dark:border-neutral-800 dark:text-neutral-400">jim.kollevik@gmail.com</a></p>
 					</div>
