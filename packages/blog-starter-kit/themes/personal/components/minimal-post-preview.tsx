@@ -19,9 +19,9 @@ export const MinimalPostPreview = ({ title, subtitle, date, slug, commentCount }
 	return (
 		<section className="flex flex-col items-start gap-1">
 			<h2 className="text-sm font-light leading-tight tracking-tight text-black dark:text-white">
-				<Link href={postURL}>{title} {subtitle}</Link>
+				<Link href={postURL}>{title}/Link>
 			</h2>
-			<p>{date}</p>
+			<p></p>
 		</section>
 	);
 };
