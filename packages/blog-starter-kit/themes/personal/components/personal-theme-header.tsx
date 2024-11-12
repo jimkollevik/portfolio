@@ -66,13 +66,13 @@ export const PersonalHeader = () => {
 				<div className="flex justify-between">
 					<h1>
 						<Link
-							className="flex flex-row items-center gap-2 text-base leading-tight tracking-tight text-black dark:text-white"
+							className="flex flex-row items-center gap-2 text-base font-semibold leading-tight tracking-tight text-black dark:text-white"
 							href="/"
 							aria-label={`${publication.author.name}'s home page`}>
 							{publication.title}
 						</Link>
 						
-						<span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">Product Owner</span>
+						<span className="font-semibold text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">Product Owner</span>
 					</h1>
 					<ToggleTheme className="md:hidden" />
 				</div>

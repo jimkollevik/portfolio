@@ -95,7 +95,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					</div>
 
 					<div>
-					<h2>Work</h2>
+					<h2 className="font-semibold">Work</h2>
 					<br/>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
@@ -141,11 +141,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<li><span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">2023</span> TUFF Leadership training</li>
 							<li><span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">2021</span> Google Analytics Qualification</li>
 						</ul>
-					</div>
-
-					<div>
-					<h2>Thanks & contact</h2>
-					</div>												
+					</div>											
 					<Footer />
 				</Container>
 			</Layout>
