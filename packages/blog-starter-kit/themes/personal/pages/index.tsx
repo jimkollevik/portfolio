@@ -111,7 +111,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="mb-12">
 					<h2>Toolbox</h2>
 					<br/>
-						<ul className="font-light">
+						<ul className="font-interLight">
 							<li>Salesforce CRM</li>
 							<li>Salesforce Marketing Cloud</li>
 							<li>Google Analytics</li>
@@ -126,7 +126,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="mb-12">
 					<h2>Testimonial</h2>
 					<br/>
-						<p className="max-w-sm">
+						<p className="max-w-sm font-interLight">
 							It was a genuine pleasure working alongside Jim at Hertz.<br/><br/>He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He&apos;s passion for his work not only elevated our projects but also inspired those around him to strive for excellence.<br/><br/>His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
 							<br/><br/>
 							<span className="text-accent-1">Anders Tärnell, CMO Hertz</span>
@@ -136,7 +136,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="mb-12">
 					<h2>Certifications</h2>
 					<br/>
-						<ul>
+						<ul className="font-interLight">
 							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2024</span> Scrum Product Owner</li>
 							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2024</span> Salesforce Business Analyst</li>
 							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2023</span> Hubspot Email Marketing</li>
