@@ -16,6 +16,8 @@ module.exports = {
 			},
 			fontFamily: {
 				inter: ["Inter", "sans-serif"],
+				interMedium: ["InterMedium", "sans-serif"],
+				interLight: ["InterLight", "sans-serif"],
 			},
 			typography: () => ({
 				DEFAULT: {
