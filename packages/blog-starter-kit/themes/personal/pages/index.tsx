@@ -88,7 +88,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="">
 					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences.
 						<br/><br/>
-					Currently implementing Salesforce CRM. When I&apos;m not
+					When I&apos;m not
 					doing that I&apos;m either in the slopes or in the kitchen cooking italian food. Sometimes I finish a book but more often thinking of new ideas, technologies or code.
 						<br/><br/>
 					Get in touch on <a href="" className="underline text-accent-1 dark:border-neutral-800 dark:text-neutral-400">jim.kollevik@gmail.com</a></p>
@@ -127,7 +127,9 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<h2>Testimonial</h2>
 					<br/>
 						<p className="max-w-sm">
-							It was a genuine pleasure working alongside Jim at Hertz. He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He&aposs passion for his work not only elevated our projects but also inspired those around him to strive for excellence. His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
+							It was a genuine pleasure working alongside Jim at Hertz.<br/><br/>He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He&apos;s passion for his work not only elevated our projects but also inspired those around him to strive for excellence.<br/><br/>His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
+							<br/><br/>
+							<span className="text-accent-1">Anders Tärnell, CMO Hertz</span>
 						</p>
 					</div>			
 
