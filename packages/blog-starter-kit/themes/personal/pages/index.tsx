@@ -94,7 +94,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					Get in touch on <a href="" className="underline text-accent-1 dark:border-neutral-800 dark:text-neutral-400">jim.kollevik@gmail.com</a></p>
 					</div>
 
-					<div>
+					<div className="mb-12">
 					<h2>Work</h2>
 					<br/>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
@@ -108,7 +108,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					)}
 					</div>
 
-					<div className="mb-8">
+					<div className="mb-12">
 					<h2>Toolbox</h2>
 					<br/>
 						<ul className="">
@@ -123,7 +123,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						</ul>
 					</div>
 
-					<div>
+					<div className="mb-12">
 					<h2>Testimonial</h2>
 					<br/>
 						<p className="max-w-sm">
@@ -133,7 +133,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 						</p>
 					</div>			
 
-					<div>
+					<div className="mb-12">
 					<h2>Certifications</h2>
 					<br/>
 						<ul>
