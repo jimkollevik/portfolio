@@ -17,8 +17,8 @@ export const MinimalPostPreview = ({ title, subtitle, date, slug, commentCount }
 	const postURL = `/${slug}`;
 
 	return (
-		<section className="flex flex-col items-start gap-1">
-			<div className="size-full hover:bg-violet-600">
+		<section className="size-full hover:bg-violet-600 flex flex-col items-start gap-1">
+			<div className="">
 				<h2 className="text-sm font-interLight leading-tight tracking-tight text-black dark:text-white">
 					<Link href={postURL}>{title}</Link>
 				</h2>
