@@ -21,7 +21,7 @@ export const MinimalPostPreview = ({ title, subtitle, date, slug, commentCount }
 			<h2 className="text-sm font-light leading-tight tracking-tight text-black dark:text-white">
 				<Link href={postURL}>{title}</Link>
 			</h2>
-			<p>{date}</p>
+			<p><DateFormatter dateString={date} /></p>
 		</section>
 	);
 };
