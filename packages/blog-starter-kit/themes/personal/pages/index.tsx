@@ -111,7 +111,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="mb-12">
 					<h2>Toolbox</h2>
 					<br/>
-						<ul className="">
+						<ul className="font-light">
 							<li>Salesforce CRM</li>
 							<li>Salesforce Marketing Cloud</li>
 							<li>Google Analytics</li>
