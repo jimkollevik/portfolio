@@ -85,7 +85,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				</Head>
 				<Container className="mx-auto flex max-w-2xl flex-col items-stretch gap-10 px-5 py-10 pt-10">
 					<PersonalHeader />
-					<div>
+					<div className="font-light">
 					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences.
 						<br/><br/>
 					Currently implementing Salesforce CRM. When I&apos;m not
@@ -95,7 +95,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					</div>
 
 					<div>
-					<h2 className="font-semibold">Work</h2>
+					<h2>Work</h2>
 					<br/>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
@@ -111,7 +111,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div>
 					<h2>Toolbox</h2>
 					<br/>
-						<ul>
+						<ul className="font-light">
 							<li>Salesforce CRM</li>
 							<li>Salesforce Marketing Cloud</li>
 							<li>Google Analytics</li>
@@ -126,7 +126,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div>
 					<h2>Testimonial</h2>
 					<br/>
-						<p>
+						<p className="font-light">
 							It was a genuine pleasure working alongside Jim at Hertz. He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He&aposs passion for his work not only elevated our projects but also inspired those around him to strive for excellence. His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
 						</p>
 					</div>			
