@@ -108,7 +108,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					)}
 					</div>
 
-					<div>
+					<div className="mb-8">
 					<h2>Toolbox</h2>
 					<br/>
 						<ul className="">

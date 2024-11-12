@@ -66,7 +66,7 @@ export const PersonalHeader = () => {
 				<div className="flex justify-between">
 					<h1>
 						<Link
-							className="flex flex-row items-center gap-2 text-base leading-tight tracking-tight text-black dark:text-white"
+							className="flex flex-row items-center gap-2 text-sm leading-tight tracking-tight text-black dark:text-white"
 							href="/"
 							aria-label={`${publication.author.name}'s home page`}>
 							{publication.title}
