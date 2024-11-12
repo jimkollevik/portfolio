@@ -72,7 +72,7 @@ export const PersonalHeader = () => {
 							{publication.title}
 						</Link>
 						
-						<span className="text-neutral-500 dark:border-neutral-800 dark:text-neutral-400">Product Owner</span>
+						<span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">Product Owner</span>
 					</h1>
 					<ToggleTheme className="md:hidden" />
 				</div>
