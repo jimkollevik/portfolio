@@ -17,13 +17,11 @@ export const MinimalPostPreview = ({ title, subtitle, date, slug, commentCount }
 	const postURL = `/${slug}`;
 
 	return (
-		<section className="hover:bg-[#FBFBFB] rounded-md cursor-pointer flex flex-col items-start gap-1">
-			<div className="">
+		<section className="hover:bg-[#FBFBFB] pt-4 rounded-md cursor-pointer flex flex-col items-start gap-1">
 				<h2 className="text-sm font-interLight leading-tight tracking-tight text-black dark:text-white">
 					<Link href={postURL}>{title}</Link>
 				</h2>
 				<p className="font-light mb-4 text-sm text-accent-1 font-interLight"><DateFormatter dateString={date} /></p>
-			</div>
 		</section>
 	);
 };
