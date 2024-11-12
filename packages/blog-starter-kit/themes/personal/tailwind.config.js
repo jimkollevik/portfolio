@@ -63,7 +63,7 @@ module.exports = {
 				'8xl': '6.25rem',
 			},
 			fontWeight: {
-				'light': '300',
+				'light': '100',
 			},
 			boxShadow: {
 				sm: '0 5px 10px rgba(0, 0, 0, 0.12)',
