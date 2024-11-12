@@ -91,7 +91,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					When I&apos;m not
 					doing that I&apos;m either in the slopes or in the kitchen cooking italian food. Sometimes I finish a book but more often thinking of new ideas, technologies or code.
 						<br/><br/>
-					Get in touch on <a href="" className="underline text-accent-1 dark:border-neutral-800 dark:text-neutral-400">jim.kollevik@gmail.com</a></p>
+					Get in touch: <a href="" className="underline text-accent-1 text-sm dark:border-neutral-800 dark:text-neutral-400">jim.kollevik@gmail.com</a></p>
 					</div>
 
 					<div className="mb-12">
