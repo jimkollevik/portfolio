@@ -18,10 +18,12 @@ export const MinimalPostPreview = ({ title, subtitle, date, slug, commentCount }
 
 	return (
 		<section className="flex flex-col items-start gap-1">
-			<h2 className="text-sm font-interLight leading-tight tracking-tight text-black dark:text-white">
-				<Link href={postURL}>{title}</Link>
-			</h2>
-			<p className="font-light mb-4 text-sm text-accent-1 font-interLight"><DateFormatter dateString={date} /></p>
+			<div className="size-full hover:bg-violet-600">
+				<h2 className="text-sm font-interLight leading-tight tracking-tight text-black dark:text-white">
+					<Link href={postURL}>{title}</Link>
+				</h2>
+				<p className="font-light mb-4 text-sm text-accent-1 font-interLight"><DateFormatter dateString={date} /></p>
+			</div>
 		</section>
 	);
 };
