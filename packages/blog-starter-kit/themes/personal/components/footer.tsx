@@ -4,7 +4,7 @@ export const Footer = () => {
 	const { publication } = useAppContext();
 
 	return (
-		<footer className="pt-10 text-sm dark:border-neutral-800 dark:text-neutral-400">
+		<footer className="pt-10 text-sm dark:border-neutral-800 dark:text-neutral-400 pl-2">
 			<div className="mb-6">
 				<h2 className="text-black dark:text-white">Thanks & contact</h2>
 			</div>	
