@@ -134,7 +134,7 @@ const Post = ({ publication, post }: PostProps) => {
 			<div className="flex tracking-tight gap-2 text-neutral-600 dark:text-neutral-400">
 				<DateFormatter dateString={post.publishedAt} />
 				{'•'}
-				<span>{post.readTimeInMinutes} min read</span>
+				<span className="pb-5">{post.readTimeInMinutes} min read</span>
 			</div>
 			{!!coverImageSrc && (
 				<div className="w-full">
@@ -173,7 +173,7 @@ export default function PostOrPage(props: Props) {
 			<Layout>
 				<Container className="mx-auto flex max-w-2xl flex-col items-stretch gap-10 px-5 py-10 pt-10 text-sm">
 					<PersonalHeader />
-					<article className="flex flex-col items-start pt-10 pb-10 pl-2">
+					<article className="flex flex-col items-start pt-5 pb-10 pl-2">
 						{props.type === 'post' && <Post {...props} />}
 						{props.type === 'page' && <Page {...props} />}
 					</article>
