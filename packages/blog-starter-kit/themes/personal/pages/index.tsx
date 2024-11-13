@@ -98,8 +98,8 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					Get in touch: <a href="" className="underline text-accent-1 text-sm dark:border-neutral-800 dark:text-neutral-400">jim.kollevik@gmail.com</a></p>
 					</div>
 
-					<div className="mb-12 pl-2">
-					<h2>Work</h2>
+					<div className="mb-12">
+					<h2 className="pl-2">Work</h2>
 					<br/>
 					{posts.length > 0 && <MinimalPosts context="home" posts={posts} />}
 					{!loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
