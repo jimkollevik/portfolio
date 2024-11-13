@@ -61,7 +61,7 @@ export const PersonalHeader = () => {
 	);
 
 	return (
-		<header className="grid grid-cols-2 items-center gap-5 ">
+		<header className="grid grid-cols-2 items-center gap-5 pl-2">
 			<div className="col-span-full md:col-span-1">
 				<div className="flex justify-between">
 					<h1>
