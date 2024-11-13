@@ -131,7 +131,8 @@ const Post = ({ publication, post }: PostProps) => {
 			<div className="flex tracking-tight gap-2 text-neutral-600 dark:text-neutral-400">
 			<h1 className="text-sm leading-tight tracking-tight text-black dark:text-white">
 				{post.title}
-			</h1>			
+			</h1>
+			<br/>
 				<DateFormatter dateString={post.publishedAt} />
 				{'•'}
 				<span>{post.readTimeInMinutes} min read</span>
