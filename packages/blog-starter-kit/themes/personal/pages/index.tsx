@@ -141,11 +141,11 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<h2>Certifications</h2>
 					<br/>
 						<ul className="font-interLight">
-							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2024</span> Scrum Product Owner</li>
-							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2024</span> Salesforce Business Analyst</li>
-							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2023</span> Hubspot Email Marketing</li>
-							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2023</span> TUFF Leadership training</li>
-							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2021</span> Google Analytics Qualification</li>
+							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2024 •</span> Scrum Product Owner</li>
+							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2024 •</span> Salesforce Business Analyst</li>
+							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2023 •</span> Hubspot Email Marketing</li>
+							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2023 •</span> TUFF Leadership training</li>
+							<li><span className="text-accent-1 dark:border-neutral-800 dark:text-neutral-400">2021 •</span> Google Analytics Qualification</li>
 						</ul>
 					</div>											
 					<Footer />
