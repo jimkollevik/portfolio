@@ -126,7 +126,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<h2>Toolbox</h2>
 					<br/>
 						<ul className="font-interLight">
-							<li><img className="size-3.5" src="data:image/svg+xml,%3csvg stroke-width='1.25' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3e%3cdefs/%3e%3cpath d='M18.68 12h-1v-1.92A5.75 5.75 0 0 0 12 4.33h-.21a5.69 5.69 0 0 0-4.82 3 2.15 2.15 0 0 0-.14.26 6.63 6.63 0 0 0-.56 2.52 4.78 4.78 0 0 0-4.8 4.8 1.41 1.41 0 0 0 0 .2 4.8 4.8 0 0 0 4.79 4.59h12.42a3.82 3.82 0 0 0 3.82-3.58 2.17 2.17 0 0 0 0-.26A3.82 3.82 0 0 0 18.68 12Z' id='roll_brush' data-name='roll brush' style='fill:none%3bstroke:darkgrey%3bstroke-miterlimit:10'/%3e%3c/svg%3e" />Salesforce CRM</li>
+							<li>Salesforce CRM</li>
 							<li>Salesforce Marketing Cloud</li>
 							<li>Google Analytics</li>
 							<li>Agile Development</li>
