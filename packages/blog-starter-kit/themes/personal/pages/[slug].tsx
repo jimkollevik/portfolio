@@ -132,7 +132,12 @@ const Post = ({ publication, post }: PostProps) => {
 			<h1 className="text-sm leading-tight tracking-tight text-black dark:text-white">
 				{post.title}
 			</h1>
-			<h2 className="text-accent-1">{post.subtitle}</h2>
+			<h2>
+				<DateFormatter dateString={post.publishedAt} />
+				{'•'}
+				<span>{post.readTimeInMinutes} min read</span>
+				</h2>
+			</div>
 			{!!coverImageSrc && (
 				<div className="w-full">
 					<CoverImage title={post.title} priority={true} src={coverImageSrc} />
