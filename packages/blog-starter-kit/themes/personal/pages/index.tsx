@@ -116,7 +116,11 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<h2>Testimonial</h2>
 					<br/>
 						<p className="max-w-sm font-interLight">
-							It was a genuine pleasure working alongside Jim at Hertz.<br/><br/>He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team. He&apos;s passion for his work not only elevated our projects but also inspired those around him to strive for excellence.<br/><br/>His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
+							It was a genuine pleasure working alongside Jim at Hertz. He consistently demonstrated a remarkable blend of analytical prowess and social skills, fostering a positive atmosphere among the team.
+							<br/><br/>
+							He&apos;s passion for his work not only elevated our projects but also inspired those around him to strive for excellence.
+							<br/><br/>
+							His contributions were invaluable, and I am confident Jim will excel in any endeavor he pursues next.
 							<br/><br/>
 							<span className="text-accent-1">Anders Tärnell, CMO Hertz</span>
 						</p>
