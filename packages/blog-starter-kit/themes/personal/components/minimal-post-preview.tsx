@@ -22,6 +22,7 @@ export const MinimalPostPreview = ({ title, subtitle, date, slug, commentCount }
 					<Link href={postURL}>{title}</Link>
 				</h2>
 				<p className="font-light mb-4 text-sm text-accent-1 font-interLight"><DateFormatter dateString={date} /></p>
+				<p className="font-light mb-4 text-sm text-accent-1 font-interLight">{post.subtitle}</p>
 		</section>
 	);
 };
