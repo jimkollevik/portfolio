@@ -72,7 +72,7 @@ export const PersonalHeader = () => {
 							{publication.title}
 						</Link>
 						
-						<span className="text-accent-1 text-sm font-interLight dark:border-neutral-800 dark:text-neutral-400">Product Owner</span>
+						<span className="text-accent-1 text-sm font-interLight dark:border-neutral-800 dark:text-neutral-400">Martech Professional</span>
 					</h1>
 					<ToggleTheme className="md:hidden" />
 				</div>

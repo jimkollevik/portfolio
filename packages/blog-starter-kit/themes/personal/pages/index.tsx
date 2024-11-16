@@ -86,7 +86,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 				<Container className="mx-auto flex max-w-2xl flex-col items-stretch gap-10 px-5 py-10 pt-10 text-sm">
 					<PersonalHeader />
 					<div className="max-w-sm mb-12 font-interLight pl-2">
-					<p>I&apos;m a Product Owner taking care of marketing technologies so others can produce exceptional experiences.
+					<p>I&apos;m a Martech Professional taking care of marketing technologies so others can produce exceptional experiences.
 						<br/><br/>
 					I&apos;m fond of data, simplicity and productivity, trying to make things simple and to get 1% better for each day.
 						<br/><br/>
