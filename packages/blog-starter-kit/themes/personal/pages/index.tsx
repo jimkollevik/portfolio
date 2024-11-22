@@ -115,10 +115,12 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					<div className="mb-12 pl-2">
 					<h2>For fun</h2>
 					<br/>
+					<section className="hover:bg-[#FBFBFB] pt-3 rounded-md cursor-pointer flex flex-col items-start gap-1 dark:hover:bg-[#141A26] pl-2">
 						<h2 className="text-sm font-interLight leading-tight tracking-tight text-black dark:text-white">
 							Notion goal template
 						</h2>
 						<p className="font-light mb-4 text-sm text-accent-1 font-interLight">Free Notion template to get your goals right.</p>
+					</section>
 					</div>
 
 					<div className="mb-12 pl-2">
