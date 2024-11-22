@@ -93,7 +93,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					When I&apos;m not
 					doing that I&apos;m either in the slopes or in the kitchen cooking italian food.
 						<br/><br/>
-					Sometimes I finish a book but more often I&apos;m thinking of new ideas or doing web things.
+					Sometimes I finish a book but more often I&apos;m building web things.
 						<br/><br/>
 					Get in touch: <a href="" className="underline text-accent-1 text-sm dark:border-neutral-800 dark:text-neutral-400">jim.kollevik@gmail.com</a></p>
 					</div>
@@ -110,6 +110,15 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					{loadedMore && pageInfo.hasNextPage && pageInfo.endCursor && (
 						<Waypoint onEnter={loadMore} bottomOffset={'10%'} />
 					)}
+					</div>
+
+					<div className="mb-12 pl-2">
+					<h2>For fun</h2>
+					<br/>
+						<h2 className="text-sm font-interLight leading-tight tracking-tight text-black dark:text-white">
+							Notion goal template
+						</h2>
+						<p className="font-light mb-4 text-sm text-accent-1 font-interLight">Free Notion template to get your goals right.</p>
 					</div>
 
 					<div className="mb-12 pl-2">
