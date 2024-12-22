@@ -112,8 +112,8 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					)}
 					</div>
 
-					<div className="mb-12 pl-2">
-					<h2>For fun</h2>
+					<div className="mb-12">
+					<h2 className="pl-2">For fun</h2>
 					<br/>
 					<section className="hover:bg-[#FBFBFB] pt-3 rounded-md cursor-pointer flex flex-col items-start gap-1 dark:hover:bg-[#141A26]">
 						<a href="https://www.notion.so/templates/yearly-goal" title="notion goal template" target="_blank"><h2 className="text-sm font-interLight leading-tight tracking-tight text-black dark:text-white">
