@@ -139,7 +139,7 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 					</div>	
 
 
-      				<RandomPicker />
+      				<randomPicker />
 
 
 					<div className="mb-12 pl-2">
