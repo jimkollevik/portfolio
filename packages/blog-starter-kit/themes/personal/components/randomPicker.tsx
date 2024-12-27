@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-const RandomPicker: React.FC = () => {
+const randomPicker: React.FC = () => {
   const values: string[] = ["Value 1", "Value 2", "Value 3", "Value 4", "Value 5"];
   const [pickedValue, setPickedValue] = useState<string | null>(null);
 
@@ -21,4 +21,4 @@ const RandomPicker: React.FC = () => {
   );
 };
 
-export default RandomPicker;
+export default randomPicker;
