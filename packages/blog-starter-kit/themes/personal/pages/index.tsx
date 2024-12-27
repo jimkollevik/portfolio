@@ -11,6 +11,7 @@ import { Footer } from '../components/footer';
 import { Layout } from '../components/layout';
 import { MinimalPosts } from '../components/minimal-posts';
 import { PersonalHeader } from '../components/personal-theme-header';
+import { randomPicker } from '../components/randomPicker';
 import {
 	MorePostsByPublicationDocument,
 	MorePostsByPublicationQuery,
@@ -136,6 +137,10 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 							<span className="text-accent-1">Anders Tärnell, CMO Hertz</span>
 						</p>
 					</div>	
+
+
+      				<RandomPicker />
+
 
 					<div className="mb-12 pl-2">
 					<h2>Toolbox</h2>
