@@ -11,8 +11,6 @@ import { Footer } from '../components/footer';
 import { Layout } from '../components/layout';
 import { MinimalPosts } from '../components/minimal-posts';
 import { PersonalHeader } from '../components/personal-theme-header';
-import { useEffect } from "react";
-import { getRandomItemFromArray } from "../utils/randomPicker";
 import {
 	MorePostsByPublicationDocument,
 	MorePostsByPublicationQuery,
@@ -56,19 +54,6 @@ export default function Index({ publication, initialPosts, initialPageInfo }: Pr
 		setPageInfo(data.publication.posts.pageInfo);
 		setLoadedMore(true);
 	};
-
-const HomePage: React.FC = () => {
-    // Array of items to choose from
-    const items = ["🍎 Apple", "🍌 Banana", "🍒 Cherry", "🍇 Grape", "🍉 Watermelon"];
-    
-    // State to hold the randomly picked item
-    const [randomItem, setRandomItem] = useState<string | null>(null);
-
-    // Use useEffect to pick a random item when the component mounts
-    useEffect(() => {
-        const selectedItem = getRandomItemFromArray(items);
-        setRandomItem(selectedItem);
-    }, []); // Empty dependency array ensures this runs only once, on mount
 
 	return (
 		<AppProvider publication={publication}>
@@ -153,16 +138,6 @@ const HomePage: React.FC = () => {
 						</p>
 					</div>	
 
-					        <div className="container">
-            					<h1>Random Picker</h1>
-            						{randomItem && (
-                				<div>
-                    				<h2>You picked: {randomItem}</h2>
-                				</div>
-            				)}
-        					</div>
-    						);
-
 					<div className="mb-12 pl-2">
 					<h2>Toolbox</h2>
 					<br/>
@@ -195,14 +170,6 @@ const HomePage: React.FC = () => {
 		</AppProvider>
 	);
 }
-
-// utils/randomPicker.ts
-export function getRandomItemFromArray<T>(array: T[]): T {
-    const randomIndex = Math.floor(Math.random() * array.length);
-    return array[randomIndex];
-}
-
-export default HomePage;
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
 	const data = await request<PostsByPublicationQuery, PostsByPublicationQueryVariables>(
