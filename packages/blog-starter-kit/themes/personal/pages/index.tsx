@@ -11,7 +11,7 @@ import { Footer } from '../components/footer';
 import { Layout } from '../components/layout';
 import { MinimalPosts } from '../components/minimal-posts';
 import { PersonalHeader } from '../components/personal-theme-header';
-import React, { useEffect } from "react";
+import { useEffect } from "react";
 import { getRandomItemFromArray } from "../utils/randomPicker";
 import {
 	MorePostsByPublicationDocument,
